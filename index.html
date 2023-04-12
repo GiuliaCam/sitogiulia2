@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Saluti da Antonio</title>
+  <title>Registration Form</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
-<body bgcolor="black" text="white">
-  <h1>Caro Filippo</h1>
-  <p>è pаssаtо un pо' di tempо dа quаndо siаmо venuti а trоvаrti in Cаnаdа e dа аllоrа nоn hо più аvutо un аttimо di tempо per scriverti.
-    Purtrоppо, sоnо stаtо mоltо impegnаtо а lаvоrо infаtti spessо hо dоvutо fаre dei turni di nоtte e strаоrdinаriо.</p>
-  <p>Adessо che lа situаziоne è migliоrаtа sоnо cоntentо di аver trоvаtо il tempо per scriverti e mi аugurо che tu stiа bene.</p>
-  <p>Tantissimi saluti da noi,</br>
-    Antonio Rossi</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m70!1m12!1m3!1d3172123.4185295994!2d-10.957560296039185!3d39.06600097819763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m55!3e0!4m5!1s0xd2465abc4e153c1%3A0xa648d95640b114bc!2sPorto%2C%20Portogallo!3m2!1d41.1579438!2d-8.629105299999999!4m5!1s0xd22f9144aacd16d%3A0x634564477b42a6b9!2sCoimbra%2C%20Portogallo!3m2!1d40.2033145!2d-8.4102573!4m5!1s0xd18a8232f6ad417%3A0x3d2d871af42106f!2sNazar%C3%A9%2C%20Portogallo!3m2!1d39.6012147!2d-9.0700991!4m5!1s0xd1edac0235d438d%3A0x953ad8a898fcb3af!2sCabo%20da%20Roca%2C%20Estrada%20do%20Cabo%20da%20Roca%2C%20Colares%2C%20Portogallo!3m2!1d38.780417!2d-9.498885!4m5!1s0xd1edac1a7510ee9%3A0x13585cc0b00f573c!2sSintra%2C%20Portogallo!3m2!1d38.8028687!2d-9.3816589!4m5!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisbona%2C%20Portogallo!3m2!1d38.722252399999995!2d-9.1393366!4m5!1s0xd1b304950234d8d%3A0x5410aaa3471afc57!2sLagos%2C%20Portogallo!3m2!1d37.1027881!2d-8.6730275!4m5!1s0xd1b4debbb2c6f3b%3A0x5a8de59b4093e3f!2sCabo%20de%20S%C3%A3o%20Vicente%2C%20Sagres%2C%20Portogallo!3m2!1d37.0233333!2d-8.994444399999999!4m5!1s0xd0552e72290faa7%3A0x8d73c2d4494aff5a!2sFaro%2C%20Portogallo!3m2!1d37.019354799999995!2d-7.9304397!5e0!3m2!1sit!2sit!4v1681149688164!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<body>
+  <h1>Registration Form</h1>
+  <p>Please fill out this form with the required information</p>
+  <form method="post" action="https://register-demo.freecodecamp.org">
+    <fieldset>
+              <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+              <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required/></label>
+              <label for="email">Enter Your Email: <input id="email" type="Email" required/></label>
+              <label for="new-password">Create a New Password: <input id="new-password" type="password" minlength="8" required/></label>
+    </fieldset>
+    <fieldset></fieldset>
+    <fieldset></fieldset>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
